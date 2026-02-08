@@ -1,3 +1,7 @@
+<p align="center">
+  <img src="assets/banner.jpg" alt="Gemini Image MCP" width="100%">
+</p>
+
 # MCP Gemini Image — Image Generation for Claude Code
 
 MCP server for generating and editing images via Google Gemini API.
