@@ -1,10 +1,23 @@
 {
   "name": "mcp-gemini-image",
   "version": "1.0.0",
-  "description": "MCP server for image generation via Google Gemini API (Nano Banana)",
+  "description": "MCP server for image generation, editing, and background removal via Google Gemini API",
   "type": "module",
   "main": "build/index.js",
   "bin": "build/index.js",
+  "license": "MIT",
+  "author": "Yuri Istomov",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/yuraist/gemini-mcp.git"
+  },
+  "keywords": [
+    "mcp",
+    "gemini",
+    "image-generation",
+    "claude-code",
+    "ai"
+  ],
   "scripts": {
     "build": "tsc",
     "start": "node build/index.js"
